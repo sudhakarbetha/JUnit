@@ -13,25 +13,17 @@ import org.junit.Test;
  *
  */
 public class OperationsTest {
+	Operations operations=new Operations();
 	
-	Operations operations=null;
 	
-	@BeforeClass
-	public void  setup() {
-		// TODO Auto-generated method stub
-		operations=new Operations();
-	}
+	
 
 	@Test
 	public void testgetSum() {
+		
 		assertEquals(5, operations.getSum(2, 3));
 	}
 	
-	@AfterClass
-	public void tearDown()
-	{
-		operations=null;
-		System.gc();
-	}
+	
 
 }
