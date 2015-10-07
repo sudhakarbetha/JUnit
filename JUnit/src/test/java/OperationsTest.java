@@ -13,6 +13,8 @@ import org.junit.Test;
  *
  */
 public class OperationsTest {
+	
+	
 	Operations operations=new Operations();
 	
 	
@@ -22,6 +24,12 @@ public class OperationsTest {
 	public void testgetSum() {
 		
 		assertEquals(5, operations.getSum(2, 3));
+	}
+	
+	@Test
+	public void testgetDiff() {
+		
+		assertEquals(-1, operations.getDiff(2, 3));
 	}
 	
 	
