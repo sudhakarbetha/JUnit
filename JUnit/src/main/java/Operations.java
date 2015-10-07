@@ -8,6 +8,8 @@
  */
 public class Operations {
 
+	
+	
 	public int getSum(int n1, int n2)
 	{
 		return n1+n2;
@@ -42,5 +44,9 @@ public class Operations {
 		return s1.replace(c1, c2);
 	}
 	
+	public byte[] getBytes(String s1)
+	{
+		return s1.getBytes();
+	}
 	
 }
